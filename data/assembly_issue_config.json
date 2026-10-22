@@ -1,0 +1,78 @@
+{
+  "num_models": {
+    "weight": 1,
+    "remediation": "system_modification"
+  },
+  "altloc_count": {
+    "weight": 3,
+    "remediation": "system_modification"
+  },
+  "sequence_mismatch_count": {
+    "weight": 3,
+    "remediation": "system_modification"
+  },
+  "num_ligands": {
+    "weight": 5,
+    "remediation": "system_modification"
+  },
+  "sidechain_missing_count": {
+    "weight": 1,
+    "remediation": "structural_repair"
+  },
+  "missing_atoms_count": {
+    "weight": 1,
+    "remediation": "structural_repair"
+  },
+  "backbone_breaks_count": {
+    "weight": 5,
+    "remediation": "major_defect"
+  },
+  "sidechain_unknown_count": {
+    "weight": 5,
+    "remediation": "major_defect"
+  },
+  "side_chirals_count": {
+    "weight": 1,
+    "remediation": "structural_repair"
+  },
+  "bck_chirals_count": {
+    "weight": 5,
+    "remediation": "structural_repair"
+  },
+  "cis_count": {
+    "weight": 5,
+    "remediation": "structural_repair"
+  },
+  "amide_count": {
+    "weight": 2,
+    "remediation": "structural_repair"
+  },
+  "num_ionizable": {
+    "weight": 1,
+    "remediation": "system_modification"
+  },
+  "num_histidines_ionizable": {
+    "weight": 2,
+    "remediation": "system_modification"
+  },
+  "deuterium_residue_count": {
+    "weight": 1,
+    "remediation": "system_modification"
+  },
+  "disulfide_bnds": {
+    "weight": 1,
+    "remediation": "system_modification"
+  },
+  "contacting_water_count": {
+    "weight": 5,
+    "remediation": "system_modification"
+  },
+  "severe_clashes_count": {
+    "weight": 5,
+    "remediation": "structural_repair"
+  },
+  "apolar_clashes_count": {
+    "weight": 2,
+    "remediation": "structural_repair"
+  }
+}
