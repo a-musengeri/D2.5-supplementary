@@ -1,0 +1,16 @@
+# conda env create -f environment.yml && conda activate md-readiness
+name: md-readiness
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas>=2.2
+  - pyarrow>=15
+  - tabulate>=0.9
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - pymongo>=4.6
+  - python-dotenv>=1.0
+  - jupyterlab>=4
+  - ipykernel
