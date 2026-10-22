@@ -6,8 +6,8 @@ Supplementary code for **BioExcel-3 Deliverable D2.5**, *Final report on standar
 
 | Notebook | What it does |
 |---|---|
-| `01_scoring_assemblies.ipynb` | Extracts issue counts for biological assemblies, computes penalties and tiers, and ranks assemblies within each PDB entry |
-| `02_scoring_non_assemblies.ipynb` | Does the same for non-assemblies (deposited entries), ranked across the whole collection |
+| `01_scoring_assemblies.ipynb` | Extracts issue counts for assemblies, computes penalties and tiers, and ranks assemblies within each PDB entry |
+| `02_scoring_non_assemblies.ipynb` | Does the same for non-assemblies, ranked across the whole collection |
 | `03_analysis_figures_tables.ipynb` | Produces the figures and summary tables from the outputs of 01 and 02 |
 
 ## Workflow
