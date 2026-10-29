@@ -39,8 +39,12 @@
     "weight": 5,
     "remediation": "structural_repair"
   },
-  "cis_count": {
+  "cis_nonpro_count": {
     "weight": 5,
+    "remediation": "structural_repair"
+  },
+  "unusual_trans_count": {
+    "weight": 3,
     "remediation": "structural_repair"
   },
   "amide_count": {
